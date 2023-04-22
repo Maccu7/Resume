@@ -3,12 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-@font-face {
-    font-family: 'Poppins';
-    src: url(/Poppins-Regular.ttf)format('truetype');
-}
 body{
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: lightblue;
     display: flex;
     justify-content: center;
@@ -65,7 +61,7 @@ object-fit: cover;
 }
 .profileText h2 span{
     font-size: 0.8 em;
-    font-weight: 100;
+    font-weight: 300;
 }
 .contactInfo{
     padding-top: 40px;
@@ -94,7 +90,7 @@ object-fit: cover;
 }
 .contactInfo ul li span{
     color: #ffff;
-    font-weight: 100;
+    font-weight: 300;
 }
 .contactInfo-education li{
  margin-bottom: 15px;
@@ -110,7 +106,7 @@ object-fit: cover;
 }
 .contactInfo-education h4{
     color: #ffff;
-    font-weight: 100;
+    font-weight: 300;
 }
 .contactInfo-language ul li{
     list-style: none;
